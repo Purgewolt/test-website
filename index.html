@@ -47,26 +47,6 @@ Sosyal Medya Adreslerim<br>
    
 </div>
 
-<div>
-    <!-- form action mutlaka belirtilmeli -->
-<form action="register.php" method="post">
-    <!-- Input alanları -->
-    <input type="text" name="username" required>
- </form>
-</div>
-
-<div>
-    <!-- header.php veya menünüzde -->
-<?php if(isset($_SESSION['user_id'])): ?>
-<a href="/kullanici-sistemi/profile.php">Profilim</a>
-<a href="/kullanici-sistemi/logout.php">Çıkış</a>
-<?php else: ?>
-<a href="/kullanici-sistemi/login.php">Giriş Yap</a>
-<a href="/kullanici-sistemi/register.php">Kayıt Ol</a>
-<?php endif; ?>
-</div>
-
-
 <div class="HAKKIMDA">
     <h1>HAKKIMDA</h1>
     <p>yazılım üzerine öğrenim sürmekteyim web geliştiricisi<br>
@@ -76,7 +56,7 @@ Sosyal Medya Adreslerim<br>
 </div>
     
 
-<div class="butonlar" id="butonlar">
+<div class="nav-container" id="butonlar">
 
 <button class="AnaSayfa" id="AnaSayfa">Ana Sayfa</button>
 <button class="BTC" id="BTC">BTC</button>
