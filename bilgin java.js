@@ -24,7 +24,7 @@ VANRY.addEventListener('click', function() {
 
 const AnaSayfa = document.getElementById('AnaSayfa');
 AnaSayfa.addEventListener('click', function() {
-    window.location.href = "https://purgewolt.github.io/test-website/"; });
+    window.location.href = "https://purgewolt.github.io/test-website"; });
 
     // Popup'ı açma ve kapama işlevleri
 document.getElementById("pencere").addEventListener("click", function() {
