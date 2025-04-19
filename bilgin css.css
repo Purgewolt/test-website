@@ -1,0 +1,147 @@
+.BTC {
+        color: darkblue;
+        background-color: azure;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+}
+
+.ETH {
+        color: darkblue;
+        background-color: azure;
+        position: absolute;
+        top: 80px;
+        left: 100px; 
+}
+
+.VANRY {
+        color: darkblue;
+        background-color: azure;
+        position: absolute;
+        top: 110px;
+        left: 100px;
+}
+
+.AnaSayfa {
+        color: darkblue;
+        background-color: azure;
+        position: absolute;
+    top: 20px;  /* Üstten 50px aşağıda */
+    left: 100px; /* Soldan 100px sağda */
+}
+
+html {
+        background-image: url(https://www.cybermagonline.com/img/sayfa/dijitalpara-gorsel-2-1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        min-height: 200vh;
+}
+
+.BTC:hover {
+        background-color: lightblue; /* Daha koyu yeşil */
+}
+
+.ETH:hover {
+        background-color: lightblue; /* Daha koyu yeşil */
+}
+
+.VANRY:hover {
+        background-color: lightblue; /* Daha koyu yeşil */
+}
+
+.AnaSayfa:hover {
+        background-color: lightblue; /* Daha koyu yeşil */
+}
+
+#fiyatGoster {
+        margin-top: 80px;
+        margin-left: 200px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+
+    /* Popup stil */
+.popup {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .popup-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        width: 300px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+.pencere {
+        color: darkblue;
+        background-color: azure;
+        position: absolute;
+        top: 140px;
+        left: 100px;
+}
+
+.EĞİTİMİM {
+        color: white;
+        position: absolute;
+        top: 20px;
+        left: 1500px; 
+}
+
+.TECRÜBELERİM {
+        color: white;
+        position: absolute;
+        top: 20px;
+        left: 1100px;
+}
+
+.İLETİŞİM {
+        color: white;
+        position: absolute;
+        top: 1600px;
+        left: 1600px;
+        
+}
+
+.ins {
+        background-color: transparent;
+        color: black;
+}
+
+.you {
+        background-color: transparent;
+        color: black;
+}
+
+.face {
+        background-color: transparent;
+        color: black;
+}
+
+.HAKKIMDA {
+        color: white;
+        position: absolute;
+        top: 1000px;
+        left: 80px;
+        
+}
