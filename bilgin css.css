@@ -97,6 +97,9 @@ html {
 
 /* MOBİL UYUMLULUK */
 @media (max-width: 768px) {
+  body {
+    padding: 20px; /* Butonların ekran kenarına yapışmasını önler */
+  }
   .nav-container {
     align-items: center;
   }
