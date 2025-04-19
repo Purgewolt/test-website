@@ -49,8 +49,8 @@ html {
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
-  background-color: transparent; /* Şeffaf yapar */
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Yazıyı okunabilir kılar */
+  background: transparent !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Yazı okunaklılığı için */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Hafif çerçeve */
   border-radius: 8px;
   width: 90%;
