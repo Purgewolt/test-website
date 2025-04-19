@@ -24,7 +24,7 @@ VANRY.addEventListener('click', function() {
 
 const AnaSayfa = document.getElementById('AnaSayfa');
 AnaSayfa.addEventListener('click', function() {
-    window.location.href = "http://127.0.0.1:5500/index/geli%C5%9Fim%20.html"; });
+    window.location.href = "https://purgewolt.github.io/test-website/"; });
 
     // Popup'ı açma ve kapama işlevleri
 document.getElementById("pencere").addEventListener("click", function() {
